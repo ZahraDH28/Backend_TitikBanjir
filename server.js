@@ -9,6 +9,6 @@ app.use(express.json());
 // Route GeoJSON
 app.use("/api/map", mapRoutes);
 
-// Jalankan server
-const PORT = 4000;
-app.listen(PORT, () => console.log(`Backend running at http://localhost:${PORT}`));
+ // Jalankan server
+ const PORT = 4000;
+ app.listen(PORT, () => console.log(`Backend running at https://vercel.com/zahradh28s-projects/frontend-titik-banjir`));
